@@ -50,16 +50,16 @@ Before you begin, ensure you have the following installed:
     npm install --save-dev nodemon
     This allows the dev script to use nodemon to run the server in development mode.
 
-1. **Start the development server:**
+3. **Start the development server:**
     ```bash
     npm run dev
     This will start the server with nodemon, which automatically restarts the server when files change.
 
-2. **Start the production server:**
+4. **Start the production server:**
     ```bash
     npm start
 
-3. **Access the application:**
+5. **Access the application:**
     Open your browser and navigate to http://localhost:3000. (Or whatever port is defined in your code)
 
 ---
