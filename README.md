@@ -1,8 +1,4 @@
 # CS499-ResearcherOne
-# Project Name
-
-A brief description of your project. For example:
-> This is a web application with a login feature built using Node.js, Express, and vanilla JavaScript. It serves as a base for scalable web development projects.
 
 ---
 
@@ -40,16 +36,26 @@ Before you begin, ensure you have the following installed:
 ---
 
 ### Running the Application
-1. **Start the development server:**
+1. **Set script permissions:**
+    ```bash
+    Set-ExecutionPolicy RemoteSigned -Scope Process
+    This allows you to run the project on a local server.
+
+2. **Install nodemon:**
+    ```bash
+    npm install --save-dev nodemon
+    This allows the dev script to use nodemon to run the server in development mode.
+
+3. **Start the development server:**
     ```bash
     npm run dev
     This will start the server with nodemon, which automatically restarts the server when files change.
 
-2. **Start the production server:**
+4. **Start the production server:**
     ```bash
     npm start
 
-3. **Access the application:**
+5. **Access the application:**
     Open your browser and navigate to http://localhost:3000. (Or whatever port is defined in your code)
 
 ---
